@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+}
+
+#canvas {
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#tophair {
+  width: 300px;
+  height: 100px;
+  background: #1F1F1F;
+  border-radius: 50% 50% 0% 0%;
+}
+
+#skin {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 90px;
+  background: #B7B7F4;
+  border-radius: 0% 0% 50% 50%;
+}
+
+#pomp {
+  z-index: 1;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: -100px;
+  background-color: #1F1F1F;
+  border-radius: 50% 50% 20% 20%;
+}
+
+#triangle-bottomleft {
+  z-index: 1;
+  position: absolute;
+     width: 100px;
+     height: 0;
+     top: -130px;
+     border-bottom: 100px solid #1F1F1F;
+     border-right: 100px solid transparent;
+   }
+
+#sideburn1 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 155px;
+  top: -5px;
+  left: 0px;
+  background: #1F1F1F;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(0deg);
+}
+
+#sideburn2 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 155px;
+  top: -5px;
+  right: 0px;
+  background: #1F1F1F;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(0deg);
+}
+
+#eyebrow1 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 50px;
+  left: 50px;
+  transform: rotate(-3deg);
+}
+
+#eyebrow2 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 50px;
+  right: 50px;
+  transform: rotate(3deg);
+}
+
+#eye1 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: black;
+  top: 80px;
+  left: 50px;
+  border-radius: 20% 20% 50% 50%;
+}
+
+#bags1 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: #9999F4;
+  top: 90px;
+  left: 50px;
+  border-radius: 20% 20% 50% 50%;
+}
+
+#eye2 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: black;
+  top: 80px;
+  right: 50px;
+  border-radius: 20% 20% 50% 50%;
+}
+
+#bags2 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: #9999F4;
+  top: 90px;
+  right: 50px;
+  border-radius: 20% 20% 50% 50%;
+}
+
+#blush1 {
+  position: absolute;
+  width:  30px;
+  height: 90px;
+  background: #9999F4;
+  top: 115px;
+  right: 60px;
+  border-radius: 70%;
+  transform: rotate(100deg);
+}
+
+#blush2 {
+  position: absolute;
+  width:  30px;
+  height: 90px;
+  background: #9999F4;
+  top: 115px;
+  left: 60px;
+  border-radius: 70%;
+  transform: rotate(-100deg);
+}
+
+#nose {
+  position: absolute;
+  border-bottom: 70px solid #7C7AC8;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  height: 0;
+  width: 15px;
+  top: 120px;
+  left: 127px;
+}
+
+#mouth {
+  position: absolute;
+  width: 105px;
+  height: 0px;
+  border: 8px solid;
+  border-color: transparent transparent black transparent;
+  top: 220px;
+  left: 88px;
+  border-radius: 50%;
+}
+
+#ear1 {
+  position: absolute;
+  width: 70px;
+  height: 100px;
+  background: #B7B7F4;
+  left: -46px;
+  top: 100px;
+  border-radius: 20% 20% 50% 50%;
+  transform: rotate(-10deg);
+}
+
+#ear2 {
+  position: absolute;
+  width: 70px;
+  height: 100px;
+  background: #B7B7F4;
+  right: -46px;
+  top: 100px;
+  border-radius: 20% 20% 50% 50%;
+  transform: rotate(10deg);
+}

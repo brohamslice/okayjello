@@ -1,0 +1,52 @@
+p {
+  margin: 0;
+  padding: 100px;
+  max-width: 300px;
+  display: inline-block;
+  border-width: 10px;
+  border-style: dotted solid dotted solid;
+  border-radius: 50px;
+  position: relative;
+  font-size: 200%
+}
+
+.courier {
+  font-family: courier;
+}
+
+.dotted-underline {
+  text-decoration: 10px dotted underline;
+}
+
+.t20-r30 {
+  top: 10px;
+  right: 300px;
+}
+
+.t40-l10 {
+  top: 30px;
+  left: 100px;
+}
+
+.b15-l30 {
+  bottom: 100px;
+  left: 300px;
+}
+
+.b25-r20 {
+  bottom: 200px;
+  right: 200px;
+}
+
+.lawngreen {
+  color: lawngreen;
+}
+.fuchsia {
+  color: fuchsia;
+}
+.cyan {
+  color: cyan;
+}
+.yellow {
+  color: yellow;
+}

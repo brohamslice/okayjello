@@ -1,0 +1,51 @@
+p {
+  font-size: 40px;
+  line-height: 3;
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  background-color: lightsteelblue;
+  opacity: 0.5
+}
+
+p.first {
+  border-style: solid;
+  border-width: 50px}
+
+.cursive {
+  font-family: cursive;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline-overline {
+  text-decoration: underline overline;
+}
+
+.color {
+  color: LavenderBlush;
+}
+
+.lightseagreen {
+  color: lightseagreen
+}
+
+.navy {
+  color: navy
+}
+
+.background-color {
+  background-color: DarkSlateBlue;
+}
+
+.solid-text-shadow {
+  text-shadow: 10px 20px Purple;
+}
+
+.soft-text-shadow {
+  text-shadow: 1px 1px 2px Lime, -2px -2px 4px Orange, 0px 0px 12px Blue;
+}
